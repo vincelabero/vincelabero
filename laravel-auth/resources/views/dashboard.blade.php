@@ -14,15 +14,13 @@
                     <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden">
                         <div class="bg-gradient-to-r from-indigo-500 to-purple-600 h-32"></div>
                         <div class="p-6 -mt-16 text-center">
-                            <div class="w-32 h-32 mx-auto rounded-full border-4 border-white dark:border-gray-800 bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
-                                <svg class="w-16 h-16 text-gray-400" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                                </svg>
-                            </div>
-                            <h3 class="mt-4 text-2xl font-bold text-gray-900 dark:text-gray-100">Jane Perlas</h3>
-                            <p class="text-indigo-600 dark:text-indigo-400 font-medium">Web Developer</p>
+                            <div class="mx-auto rounded-full border-4 border-white dark:border-gray-800 bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden shadow-sm" style="width: 192px; height: 192px;">
+    <img src="{{ asset('images/1.jpg') }}" alt="Laurence Andrew Perlas" class="w-full h-full object-cover">
+</div>
+                            <h3 class="mt-4 text-2xl font-bold text-gray-900 dark:text-gray-100">Laurence Andrew B. Perlas</h3>
+                            <p class="text-indigo-600 dark:text-indigo-400 font-medium">BSIT</p>
                             <p class="mt-4 text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                                Passionate developer focused on building clean, responsive, and user-friendly web applications with Laravel and modern JavaScript.
+                                Passionate developer trying to learn and explore new technologies. I enjoy building web applications and solving complex problems through code.
                             </p>
                             <div class="mt-6 space-y-2 text-left">
                                 <div class="flex items-center gap-3 text-sm text-gray-700 dark:text-gray-300">
