@@ -1,11 +1,21 @@
+import { resolve } from 'path';
 import { defineConfig } from 'vite';
-import laravel from 'laravel-vite-plugin';
+
+const pages = [
+    'index.html',
+    'about.html',
+    'education.html',
+    'projects.html',
+    'github.html',
+];
 
 export default defineConfig({
-    plugins: [
-        laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
-            refresh: true,
-        }),
-    ],
+    build: {
+        outDir: 'dist',
+        emptyOutDir: true,
+        rollupOptions: {
+            input: pages.map((page) => resolve(__dirname, page)),
+        },
+    },
+    publicDir: 'public',
 });
