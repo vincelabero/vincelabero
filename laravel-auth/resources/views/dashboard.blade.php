@@ -9,7 +9,7 @@
                 <a href="#about" class="hover:underline transition inline-block px-1 text-black">About</a>
                 <a href="#education" class="hover:underline transition inline-block px-1 text-black">Education</a>
                 <a href="#projects" class="hover:underline transition inline-block px-1 text-black">Projects</a>
-                <a href="https://github.com/supremo-a/Laurence" target="_blank" class="hover:underline transition inline-block px-1 text-black">GitHub</a>
+                <a href="https://github.com/vincelabero/vincelabero" target="_blank" class="hover:underline transition inline-block px-1 text-black">GitHub</a>
             </div>
         </div>
     </nav>
@@ -23,12 +23,13 @@
                 
                 <!-- Fixed XL Size Avatar (192px / 12rem) -->
                 <div class="w-48 h-48 min-w-[12rem] min-h-[12rem] max-w-[12rem] max-h-[12rem] rounded-full border-4 border-black p-1 flex-shrink-0 shadow-sm overflow-hidden" style="width: 192px; height: 192px;">
-                    <img src="{{ asset('images/1.jpg') }}" alt="Laurence Andrew B. Perlas" class="w-full h-full object-cover rounded-full block grayscale">
+                    <!-- Removed 'grayscale' class to show true color -->
+                    <img src="{{ asset('images/2.png') }}" alt="Marc Vincel Abero" class="w-full h-full object-cover rounded-full block">
                 </div>
                 
                 <!-- Info Details -->
                 <div class="text-center sm:text-left space-y-2 text-black">
-                    <h1 class="text-3xl font-bold text-black">Laurence Andrew B. Perlas</h1>
+                    <h1 class="text-3xl font-bold text-black">Marc Vincel Abero</h1>
                     <p class="font-semibold text-lg text-black">BSIT Student</p>
                     <p class="text-sm max-w-xl text-black">
                         Passionate developer trying to learn and explore new technologies. I enjoy building web applications and solving complex problems through code.
@@ -37,7 +38,7 @@
                         <svg class="w-4 h-4 flex-shrink-0 text-black" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                         </svg>
-                        <span class="text-black">+63 962 251 8929</span>
+                        <span class="text-black">+63 995 981 8303 </span>
                     </div>
                 </div>
 
@@ -58,16 +59,16 @@
 
                 <!-- Senior High School -->
                 <div class="pl-4 border-l-4 border-black space-y-1">
-                    <h3 class="text-lg font-bold text-black">University of Abra, Bangued</h3>
+                    <h3 class="text-lg font-bold text-black">Divine Word College of Bangued, Philippines</h3>
                     <p class="font-medium text-sm text-black">Senior High School</p>
                     <p class="text-xs text-black">Bangued, Abra</p>
                 </div>
 
                 <!-- Elementary -->
                 <div class="pl-4 border-l-4 border-black space-y-1">
-                    <h3 class="text-lg font-bold text-black">Tayum Central School</h3>
+                    <h3 class="text-lg font-bold text-black">Divine Word College of Bangued, Philippines</h3>
                     <p class="font-medium text-sm text-black">Elementary</p>
-                    <p class="text-xs text-black">Poblacion Tayum Abra</p>
+                    <p class="text-xs text-black">Bangued, Abra</p>
                 </div>
             </div>
         </section>
@@ -78,8 +79,8 @@
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-white rounded-2xl shadow-md p-6 border border-black space-y-2 text-black">
-                    <h3 class="text-lg font-bold text-black">Patient Record Management System</h3>
-                    <p class="text-sm text-black">Desktop management platform built for Rural Health Units.</p>
+                    <h3 class="text-lg font-bold text-black">Online Information and Management System</h3>
+                    <p class="text-sm text-black">Web-based management platform built for Cathedral.</p>
                 </div>
                 <div class="bg-white rounded-2xl shadow-md p-6 border border-black space-y-2 text-black">
                     <h3 class="text-lg font-bold text-black">Laravel Auth & Portfolio</h3>

@@ -8,7 +8,7 @@
             <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md p-8 space-y-4">
                 <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-100">Check out my repositories</h3>
                 <p class="text-gray-600 dark:text-gray-400 text-sm">Explore my open-source projects and code contributions directly on GitHub.</p>
-                <a href="https://github.com/supremo-a/Laurence" target="_blank" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-lg transition">
+                <a href="https://github.com/vincelabero/vincelabero" target="_blank" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-lg transition">
                     Visit GitHub Profile
                 </a>
             </div>

@@ -10,7 +10,7 @@
                     <img src="{{ asset('images/1.jpg') }}" alt="Laurence Andrew Perlas" class="w-full h-full object-cover">
                 </div>
                 <div class="space-y-2">
-                    <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100">Laurence Andrew B. Perlas</h1>
+                    <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100">Marc Vincel Abero</h1>
                     <p class="text-indigo-600 dark:text-indigo-400 font-medium text-lg">BSIT Student</p>
                     <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                         Passionate developer trying to learn and explore new technologies. I enjoy building web applications and solving complex problems through code.
